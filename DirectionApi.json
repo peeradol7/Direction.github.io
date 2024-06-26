@@ -1,0 +1,159 @@
+{
+    "routes": [
+        {
+            "method": "walk",
+            "data": [
+                {
+                    "distance": {
+                        "text": "400 m",
+                        "value": 500
+                    },
+                    "duration": {
+                        "text": "3 mins",
+                        "value": 180
+                    },
+                    "end_address": "End park",
+                    "end_location": {
+                        "lat": 14.039357906418308,
+                        "lng": 100.72854893532674
+                    },
+                    "start_address": "Start park",
+                    "start_location": {
+                        "lat": 14.039565573205481,
+                        "lng": 100.72894028573512
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "200 m",
+                                "value": 200
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 90
+                            },
+                            "end_location": {
+                                "lat": 14.039364470681532,
+                                "lng": 100.72894025761764
+                            },
+                            "instructions": "Walk straight for 200 meters",
+                            "start_location": {
+                                "lat": 14.039565573205481,
+                                "lng": 100.72894028573512
+                            },
+                            "is_completed": false
+                        },
+                        {
+                            "distance": {
+                                "text": "200 m",
+                                "value": 200
+                            },
+                            "duration": {
+                                "text": "1 mins",
+                                "value": 60
+                            },
+                            "end_location": {
+                                "lat": 14.039357906418308,
+                                "lng": 100.72854893532674
+                            },
+                            "instructions": "Turn left and walk for 300 meters",
+                            "start_location": {
+                                "lat": 14.039364470681532,
+                                "lng": 100.72894025761764
+                            },
+                            "is_completed": false
+                        }
+                    ]
+                },
+                {
+                    "distance": {
+                        "text": "1 km",
+                        "value": 1000
+                    },
+                    "duration": {
+                        "text": "6 mins",
+                        "value": 360
+                    },
+                    "end_address": "end school",
+                    "end_location": {
+                        "lat": 14.039389698288419,
+                        "lng": 100.72671853695797
+                    },
+                    "start_address": "start school",
+                    "start_location": {
+                        "lat": 14.039614599717076,
+                        "lng": 100.72766444381722
+                    },
+                    "steps": [
+                        {
+                            "distance": {
+                                "text": "300 m",
+                                "value": 300
+                            },
+                            "duration": {
+                                "text": "2 mins",
+                                "value": 120
+                            },
+                            "end_location": {
+                                "lat": 14.03971906765625,
+                                "lng": 100.72732450922291
+                            },
+                            "instructions": "Walk straight for 300 meters",
+                            "start_location": {
+                                "lat": 14.039614599717076,
+                                "lng": 100.72766444381722
+                            },
+                            "is_completed": false
+                        },
+                        {
+                            "distance": {
+                                "text": "200 m",
+                                "value": 200
+                            },
+                            "duration": {
+                                "text": "1 mins",
+                                "value": 60
+                            },
+                            "end_location": {
+                                "lat": 14.039419937978778,
+                                "lng": 100.72725013568619
+                            },
+                            "instructions": "Walk straight for 200 meters",
+                            "start_location": {
+                                "lat": 14.03971906765625,
+                                "lng": 100.72732450922291
+                            },
+                            "is_completed": false
+                        },
+                        {
+                            "distance": {
+                                "text": "500 m",
+                                "value": 500
+                            },
+                            "duration": {
+                                "text": "3 mins",
+                                "value": 180
+                            },
+                            "end_location": {
+                                "lat": 14.039389698288419,
+                                "lng": 100.72671853695797
+                            },
+                            "instructions": "Turn right to the destination point C",
+                            "start_location": {
+                                "lat": 14.039419937978778,
+                                "lng": 100.72725013568619
+                            },
+                            "is_completed": false
+                        }
+                    ]
+                }
+            ],
+            "overview_polyline": {
+                "points": "encoded_polyline_string"
+            },
+            "summary": "Route through the campus",
+            "is_completed": false
+        }
+    ],
+    "status": "OK"
+}
